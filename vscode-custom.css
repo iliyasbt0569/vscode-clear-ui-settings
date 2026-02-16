@@ -34,4 +34,6 @@ div.titlebar-right > div.action-toolbar-container > div.monaco-toolbar > div.mon
     font-weight: bold;
 }
 
-
+.window-appicon{
+    visibility: hidden !important;
+}
