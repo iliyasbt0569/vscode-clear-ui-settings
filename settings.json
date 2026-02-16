@@ -54,7 +54,7 @@
     "window.customTitleBarVisibility": "auto",
     "window.commandCenter": false,
     "window.menuBarVisibility": "toggle",
-    "window.title": "${activeEditorShort}",
+    "window.title": "${dirty}${activeEditorShort}",
     "window.titleBarStyle": "custom",
     "window.controlsStyle": "custom",
 
@@ -65,4 +65,5 @@
         "file:///${env:APPDATA}/Code/User/vscode-custom.css"
     ]
 }
+
 
